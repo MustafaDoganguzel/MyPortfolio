@@ -3,7 +3,7 @@ import React from 'react'
 export default function Hero() {
     return (
         <div className='hero '>
-            <div class="flex items-center">
+            <div class="flex items-center ">
                 <span class="flex w-10 h-[1px] bg-gray-400 mx-2 "></span>
                 <span className='text-[#7B61FF] font-bold'>Mustafa Doganguzel</span>
             </div>
