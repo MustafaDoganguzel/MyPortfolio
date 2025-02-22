@@ -3,11 +3,11 @@ import React from 'react'
 export default function Hero() {
     return (
         <div className='hero '>
-            <div class="flex items-center ">
+            <div class="flex items-center">
                 <span class="flex w-10 h-[1px] bg-gray-400 mx-2 "></span>
                 <span className='text-[#7B61FF] font-bold'>Mustafa Doganguzel</span>
             </div>
-            <div className='flex m-5 justify-between'>
+            <div className='flex m-5 justify-around'>
                 <div className='flex flex-col justify-around '>
                     <div>
 

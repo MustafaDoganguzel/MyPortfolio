@@ -14,7 +14,9 @@ function App() {
 
 
   return (
-    <>
+
+    <div className="flex flex-col gap-4 max-w-[1440px] mx-auto">
+
       <HeaderButton />
       <Header />
       <Hero />
@@ -22,7 +24,8 @@ function App() {
       <Profile />
       <Projects />
       <Footer />
-    </>
+    </div>
+
   )
 }
 

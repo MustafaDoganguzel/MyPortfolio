@@ -6,11 +6,11 @@ export default function Profile() {
             <div className='text-[40px]'>Profile</div>
 
 
-            <div className='flex justify-between ' >
+            <div className='flex m-5 justify-between ' >
                 <div>
 
                     <div className='text-[#4338CA]'>Profile</div>
-                    <div className='flex flex-col'>
+                    <div className='flex gap-1 flex-col'>
                         <div className='flex'>
                             <div>Dogum Tarihi</div>
                             <p>29.04.1996</p>

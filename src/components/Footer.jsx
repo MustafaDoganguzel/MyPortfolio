@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <>
-            <div>
+        <div className='footer py-10'>
+            <div className=' text-[40px]'>
                 <div>Lets work together on</div>
                 <div>your next product.</div>
             </div>
@@ -18,6 +18,6 @@ export default function Footer() {
             </div>
 
 
-        </>
+        </div>
     )
 }

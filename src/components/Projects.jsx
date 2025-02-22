@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Projects() {
     return (
-        <div className='projects'>
+        <div className='projects '>
 
-            <div>Projects</div>
-            <div className='flex justify-between'>
+            <div className='text-[40px]'>Projects</div>
+            <div className='flex m-5 justify-between'>
 
                 <div className='w-50'>
                     <img className='w-50 h-35' src="src/images/Pizza.jpg" alt="pizza-img" />
