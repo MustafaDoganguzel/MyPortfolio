@@ -9,10 +9,11 @@ export default function Hero() {
             </div>
             <div className='flex m-5 justify-around'>
                 <div className='flex flex-col justify-around '>
-                    <div>
-
-                        <h1>Creative Thinker</h1>
-                        <h1>Minimalism Lover</h1>
+                    <div className='flex flex-col'>
+                        <div className='text-[30px] pb-5 font-bold text-[#1F2937]'>
+                            <h1>Creative Thinker</h1>
+                            <h1>Minimalism Lover</h1>
+                        </div>
                         <p className='text-gray-500'>Hi Im Mustafa I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.</p>
                     </div>
                     <div className='flex gap-5'>

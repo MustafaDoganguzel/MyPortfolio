@@ -11,22 +11,22 @@ export default function Profile() {
 
                     <div className='text-[#4338CA]'>Profile</div>
                     <div className='flex gap-1 flex-col'>
-                        <div className='flex'>
+                        <div className='flex '>
                             <div>Dogum Tarihi</div>
-                            <p>29.04.1996</p>
+                            <div>29.04.1996</div>
                         </div>
                         <div className='flex'>
                             <div>Ikamet Sehri</div>
-                            <p>Ankara</p>
+                            <div>Ankara</div>
                         </div>
                         <div className='flex'>
                             <div>Egitim Durumu</div>
-                            <p>Baskent Universitesi</p>
+                            <div>Baskent Universitesi</div>
                         </div>
 
                         <div className='flex'>
                             <div>Tercih Ettigi rol</div>
-                            <p>Front-End/UI</p>
+                            <div>Front-End/UI</div>
                         </div>
                     </div>
 
