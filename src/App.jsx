@@ -7,6 +7,9 @@ import Footer from './components/Footer'
 import Profile from './components/Profile.Jsx'
 
 import './App.css'
+import ThemeModeProvider from './contexts/ThemeMode'
+
+
 
 
 
@@ -14,17 +17,17 @@ function App() {
 
 
   return (
-
-    <div className="flex flex-col gap-4 max-w-[1440px] mx-auto">
-
-      <HeaderButton />
-      <Header />
-      <Hero />
-      <Skills />
-      <Profile />
-      <Projects />
-      <Footer />
-    </div>
+    <ThemeModeProvider>
+      <div className=" flex flex-col gap-4 max-w-[1440px] mx-auto  ">
+        <HeaderButton />
+        <Header />
+        <Hero />
+        <Skills />
+        <Profile />
+        <Projects />
+        <Footer />
+      </div>
+    </ThemeModeProvider>
 
   )
 }
