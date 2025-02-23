@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { themeMode } from '../contexts/ThemeMode'
+import data from '../data.json'
 
 export default function Hero() {
     const { theme } = useContext(themeMode)
@@ -13,8 +14,9 @@ export default function Hero() {
                 <div className='flex flex-col justify-around '>
                     <div className='flex flex-col'>
                         <div className='text-[30px] pb-5 font-bold' >
-                            <h1>Creative Thinker</h1>
-                            <h1>Minimalism Lover</h1>
+                            <h1>{data.tr.hero.title}</h1>
+                            {/* JSON'dan cektik */}
+                            <h1>{data.tr.hero.title2}</h1>
                         </div>
                         <p className='text-gray-500'>Hi Im Mustafa I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.</p>
                     </div>
