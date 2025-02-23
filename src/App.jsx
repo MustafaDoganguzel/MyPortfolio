@@ -7,7 +7,9 @@ import Footer from './components/Footer'
 import Profile from './components/Profile.Jsx'
 
 import './App.css'
-import ThemeModeProvider from './contexts/ThemeMode'
+
+import { LanguageContext } from './contexts/LanguageContext'
+import { useContext } from 'react'
 
 
 
@@ -15,19 +17,21 @@ import ThemeModeProvider from './contexts/ThemeMode'
 
 function App() {
 
-
+  const { langData } = useContext(LanguageContext)
   return (
-    <ThemeModeProvider>
-      <div className=" flex flex-col gap-4 max-w-[1440px] mx-auto  ">
-        <HeaderButton />
-        <Header />
-        <Hero />
-        <Skills />
-        <Profile />
-        <Projects />
-        <Footer />
-      </div>
-    </ThemeModeProvider>
+
+    <div className=" flex flex-col gap-4 max-w-[1440px] mx-auto ">
+
+      <HeaderButton />
+      <Header headerData={langData.header} />
+      <Hero heroData={langData.hero} />
+      <Skills skillsData={langData.skills} />
+      <Profile profileData={langData.profile} />
+      <Projects projectsData={langData.projects} />
+      <Footer footerData={langData.footerData} />
+    </div>
+
+
 
   )
 }
