@@ -1,16 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { themeMode } from '../contexts/ThemeMode'
 
 export default function Hero() {
+    const { theme } = useContext(themeMode)
     return (
-        <div className='hero '>
+        <div className='hero'>
             <div class="flex items-center">
                 <span class="flex w-10 h-[1px] bg-gray-400 mx-2 "></span>
-                <span className='text-[#7B61FF] font-bold'>Mustafa Doganguzel</span>
+                <span className='text-[#7B61FF] font-bold' >Mustafa Doganguzel</span>
             </div>
             <div className='flex m-5 justify-around'>
                 <div className='flex flex-col justify-around '>
                     <div className='flex flex-col'>
-                        <div className='text-[30px] pb-5 font-bold text-[#1F2937]'>
+                        <div className='text-[30px] pb-5 font-bold' >
                             <h1>Creative Thinker</h1>
                             <h1>Minimalism Lover</h1>
                         </div>

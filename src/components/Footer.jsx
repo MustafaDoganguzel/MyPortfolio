@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div className='footer py-10'>
+        <div className='footer py-10 bg-gray-100'>
             <div className=' text-[40px]'>
                 <div>Lets work together on</div>
                 <div>your next product.</div>
