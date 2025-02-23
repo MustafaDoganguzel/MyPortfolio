@@ -36,46 +36,47 @@
             },
             "react": {
                 "name": "React.JS",
-                "info": "loremipsum etc etc etc"
+                "info": "Experienced in React, skilled in developing dynamic and scalable user interfaces with a component-based architecture. Proficient in React Hooks, functional components, state management, and JSX. Additionally, I have experience with tools like React Router and React Context API for application routing and global state management."
             },
             "node": {
                 "name": "Node.JS",
-                "info": "loremipsum etc etc etc"
+                "info": "Experienced in Node.js, with a strong understanding of server-side development and building scalable, high-performance web applications. Proficient in using Node.js for API development, handling asynchronous operations, and working with Express.js for routing and middleware. Familiar with integrating databases (SQL/NoSQL) and implementing authentication and authorization mechanisms."
             }
         },
         "profile": {
             "title": "Profile",
             "informations": {
                 "title": "Profile",
-                "dateOfBirth": "29.04.1996",
+                "dateOfBirth": "Date of Birth",
+                "city1": "City of Residence",
                 "city": "Ankara",
+                "education1": "Educational Informations",
                 "education": "Baskent Universitesi/International Trade & Finance"
             },
-            "preferencesJob": "Front-End, UI"
+            "preferencesJob": "Preferences Job",
+            "aboutMe": "About me",
+            "aboutDescription": "I have a bachelor's degree in International Trade from Başkent University and have 4.5 years of experience in foreign trade and sales where I developed strong problem solving, process management and collaboration skills. I am participating in an intensive 6-month full-time training program in full-stack development. Through this program, I am developing skills in a field I have not experienced before, with the goal of specializing in it in the future."
         },
-        "projects": [
-            {
-                "title": "Projects",
-                "project1": {
-                    "image": "xxxx.png",
-                    "title": "Pizza Order",
-                    "description": "The project is a clone of a website where you can order pizza, and its UI/UX has been designed accordingly."
-                },
-                "project2": {
-                    "image": "xxx.png",
-                    "title": "WitFlix",
-                    "description": "Witflix is a Netflix clone project."
-                }
-            }
-        ],
+        "projects": {
+            "title": "Projects",
+            "project1": {
+                "title": "Pizza Order",
+                "description": "The project is a clone of a website where you can order pizza, and its UI/UX has been designed accordingly."
+            },
+            "project2": {
+                "title": "WitFlix",
+                "description": "Witflix is a Netflix clone project."
+            },
+            "project3": {
+                "title": "Random Jokes",
+                "description": "Project is an application designed to bring joy to users by providing random jokes and humor. The app offers jokes in various categories, aiming to brighten the user's day. Users can either choose specific joke types or receive random jokes. The project is developed using modern web technologies like JavaScript and React, and it fetches joke data through an API. This allows users to access a constantly updated collection of new jokes with ease."
+            },
+            "viewSite": "View website"
+        },
         "footer": {
-            "heading": "Let's work together on your next product",
-            "mail": "m.doganguzell@gmail.com",
-            "social": [
-                "Personal Blog",
-                "GitHub",
-                "LinkedIn"
-            ]
+            "heading1": "Let's work together on",
+            "heading2": "your next product",
+            "mail": "m.doganguzell@gmail.com"
         }
     },
     "tr": {
@@ -115,11 +116,11 @@
             },
             "react": {
                 "name": "React.JS",
-                "info": "deneme deneme deneme"
+                "info": "React konusunda deneyimliyim, komponent tabanlı mimarilerle dinamik ve ölçeklenebilir kullanıcı arayüzleri geliştirme konusunda yetkinim. React Hooks, fonksiyonel komponentler, state management ve JSX gibi temel özelliklere hakimim. Ayrıca, React Router ve React Context API gibi araçlarla uygulama yönlendirmesi ve global state yönetimi konusunda deneyim sahibiyim."
             },
             "node": {
                 "name": "Node.JS",
-                "info": "deneme deneme deneme"
+                "info": "Node.js konusunda deneyimliyim, sunucu tarafı geliştirme ve ölçeklenebilir, yüksek performanslı web uygulamaları oluşturma konusunda güçlü bir anlayışa sahibim. API geliştirme, asenkron işlemlerle çalışma ve Express.js ile yönlendirme ve ara yazılımlar (middleware) kullanma konusunda yetkinim. Ayrıca, veritabanları (SQL/NoSQL) entegrasyonu ve kimlik doğrulama/izin mekanizmalarının uygulanması konusunda deneyimim bulunuyor."
             }
         },
         "profile": {
@@ -127,28 +128,34 @@
             "informations": {
                 "title": "Profil",
                 "dateOfBirth": "29.04.1996",
+                "city1": "Ikamet Ettigi Sehir",
                 "city": "Ankara",
+                "education1": "Eğitim durumu",
                 "education": "Baskent Universitesi/Uluslararasi Ticaret ve Finans"
             },
-            "preferencesJob": "Front-End, UI"
+            "preferencesJob": "Tercih Ettigi Rol",
+            "aboutMe": "Hakkımda",
+            "aboutDescription": "Başkent Üniversitesi'nden Uluslararası Ticaret mezunum ve dış ticaret ve satış alanlarında yaklașık 5 yıllık deneyimim var. Bu süreçte güçlü problem çözme, süreç yönetimi ve işbirliği becerileri geliştirdim. Şu anda, daha önce deneyimlemediğim bir alanda becerilerimi geliştirmek ve gelecekte bu alanda uzmanlaşmak amacıyla yoğun bir 6 aylık tam zamanlı bir full-stack developer eğitimindeyim."
         },
-        "projects": [
-            {
-                "title": "Projeler",
-                "project1": {
-                    "image": "xxxx.png",
-                    "title": "Pizza Siparis",
-                    "description": "Pizza Siparisi verebilecegin bi site xd"
-                },
-                "project2": {
-                    "image": "xxx.png",
-                    "title": "WitFlix",
-                    "description": "Netflix Klonu"
-                }
-            }
-        ],
+        "projects": {
+            "title": "Projeler",
+            "project1": {
+                "title": "Pizza Siparis",
+                "description": "Pizza Siparisi verebilecegin bir projedir "
+            },
+            "project2": {
+                "title": "WitFlix",
+                "description": "Netflix Klonu"
+            },
+            "project3": {
+                "title": "Random Jokes",
+                "description": "Kullanıcıların keyifli zaman geçirebilmesi için rastgele şaka ve espriler sunan bir uygulamadır. Uygulama, farklı kategorilerdeki şakaları kullanıcılara sunarak onların gününü neşelendirmeyi amaçlar. Kullanıcılar, şaka türlerini seçebilir veya sadece rastgele şakalar alabilirler. Proje, JavaScript ve React gibi modern web teknolojilerini kullanarak geliştirilmiştir ve şaka verilerini bir API üzerinden alır. Bu sayede sürekli güncellenen yeni şakalara kolayca erişim sağlanır."
+            },
+            "viewSite": "Siteye Git"
+        },
         "footer": {
-            "heading": "Bir Sonraki isin icin calismamizi ister misin?",
+            "heading1": "Bir Sonraki isin icin",
+            "heading2": "calismamizi ister misin?",
             "mail": "m.doganguzell@gmail.com",
             "social": [
                 "Blog",
