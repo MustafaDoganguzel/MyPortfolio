@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { themeMode } from '../contexts/ThemeMode'
 
 export default function Footer() {
+    const { theme } = useContext(themeMode)
     return (
-        <div className='footer py-10 bg-gray-100'>
+        <div className={`${theme !== "Dark" ? 'footer py-10 bg-gray-100' : 'footer py-10 bg-black'}`}>
             <div className=' text-[40px]'>
                 <div>Lets work together on</div>
                 <div>your next product.</div>
