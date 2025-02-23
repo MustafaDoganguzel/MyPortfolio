@@ -12,7 +12,8 @@
         "hero": {
             "title": "Creative thinker",
             "title2": "Minimalism lover",
-            "description": "Hi! Im Mustafa, I'm a full-stack developer.........."
+            "description": "Hi Im Mustafa I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s contact.",
+            "social": "Contact"
         },
         "social": [
             {
@@ -30,8 +31,8 @@
         "skills": {
             "title": "Skills",
             "javascript": {
-                "name": "JavaScipt",
-                "info": "loremipsum etc etc etc"
+                "name": "JavaScript",
+                "info": "Proficient in JavaScript, with experience in writing clean, efficient, and maintainable code. Skilled in ES6+ features, asynchronous programming, and working with modern libraries like React. Strong understanding of functional programming, array methods (.map, .filter, .reduce), and best practices for scalable front-end development."
             },
             "react": {
                 "name": "React.JS",
@@ -90,7 +91,8 @@
         "hero": {
             "title": "Minimalizmi seven,",
             "title2": "Yaratici dusunen biri...",
-            "description": "Merhaba! Ben Mustafa, Front-End developer'im.........."
+            "description": "Merhaba, ben Mustafa. Ben full-stack developer'ım. Sağlam ve ölçeklenebilir front-end urunleri geliştirerek harika kullanıcı deneyimleri sunan bir geliştirici arıyorsanız, iletisime gecelim!",
+            "social": "Iletisim"
         },
         "social": [
             {
@@ -108,8 +110,8 @@
         "skills": {
             "title": "Beceriler",
             "javascript": {
-                "name": "JavaScipt",
-                "info": "deneme deneme deneme"
+                "name": "JavaScript",
+                "info": "JavaScript konusunda yetkinim, temiz, verimli ve sürdürülebilir kod yazma deneyimine sahibim. ES6+ özellikleri, asenkron programlama ve React gibi modern kütüphanelerle çalışma konusunda deneyimliyim. Fonksiyonel programlama, dizi metodları (.map, .filter, .reduce) ve ölçeklenebilir ön yüz geliştirme için en iyi uygulamalar konusunda güçlü bir anlayışım var."
             },
             "react": {
                 "name": "React.JS",
