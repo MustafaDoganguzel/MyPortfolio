@@ -1,5 +1,5 @@
 import React from 'react'
-
+// const details = [] 
 export default function Profile() {
     return (
         <>
@@ -11,21 +11,22 @@ export default function Profile() {
 
                     <div className='text-[#4338CA]'>Profile</div>
                     <div className='flex gap-1 flex-col'>
-                        <div className='flex '>
-                            <div>Dogum Tarihi</div>
+                        {/* const ile map yapmayi dene! */}
+                        <div className='flex gap-10'>
+                            <div className='w-30'>Dogum Tarihi</div>
                             <div>29.04.1996</div>
                         </div>
-                        <div className='flex'>
-                            <div>Ikamet Sehri</div>
+                        <div className='flex gap-10'>
+                            <div className='w-30'>Ikamet Sehri</div>
                             <div>Ankara</div>
                         </div>
-                        <div className='flex'>
-                            <div>Egitim Durumu</div>
+                        <div className='flex gap-10'>
+                            <div className='w-30'>Egitim Durumu</div>
                             <div>Baskent Universitesi</div>
                         </div>
 
-                        <div className='flex'>
-                            <div>Tercih Ettigi rol</div>
+                        <div className='flex gap-10'>
+                            <div className='w-30'>Tercih Ettigi rol</div>
                             <div>Front-End/UI</div>
                         </div>
                     </div>
