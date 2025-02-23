@@ -1,6 +1,6 @@
 import React from 'react'
 // const details = [] 
-export default function Profile() {
+export default function Profile({ profileData }) {
     return (
         <>
             <div className='text-[40px]'>Profile</div>
@@ -9,24 +9,26 @@ export default function Profile() {
             <div className='flex m-5 justify-between ' >
                 <div>
 
-                    <div className='text-[#4338CA]'>Profile</div>
+                    <div className='text-[#4338CA]'>{profileData?.title}</div>
                     <div className='flex gap-1 flex-col'>
                         {/* const ile map yapmayi dene! */}
                         <div className='flex gap-10'>
-                            <div className='w-30'>Dogum Tarihi</div>
+                            <div className='w-30'>{profileData?.informations.dateOfBirth}</div>
                             <div>29.04.1996</div>
                         </div>
                         <div className='flex gap-10'>
-                            <div className='w-30'>Ikamet Sehri</div>
+                            <div className='w-30'>
+                                {profileData?.informations.city1}
+                            </div>
                             <div>Ankara</div>
                         </div>
                         <div className='flex gap-10'>
-                            <div className='w-30'>Egitim Durumu</div>
-                            <div>Baskent Universitesi</div>
+                            <div className='w-30'>{profileData?.informations.education1}</div>
+                            <div>{profileData?.informations.education}</div>
                         </div>
 
                         <div className='flex gap-10'>
-                            <div className='w-30'>Tercih Ettigi rol</div>
+                            <div className='w-30'>{profileData?.preferencesJob}</div>
                             <div>Front-End/UI</div>
                         </div>
                     </div>
@@ -34,10 +36,9 @@ export default function Profile() {
                 </div>
                 <div className='w-[50%]'>
                     <div className='text-[#4338CA]'>
-                        About me
+                        {profileData?.aboutMe}
                     </div>
-                    <p className='text-gray-400'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.
-                        Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! </p>
+                    <p className='text-gray-400'>{profileData?.aboutDescription} </p>
                 </div>
             </div>
 
