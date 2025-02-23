@@ -2,7 +2,6 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 #root.Dark {
-    background-color: #171043;
-
-    color: white;
+    background-color: #252128;
+    color: #AEBCCF;
 }
