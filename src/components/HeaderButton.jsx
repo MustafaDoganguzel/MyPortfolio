@@ -2,10 +2,12 @@
 import React, { useContext } from 'react'
 import { themeMode } from '../contexts/ThemeMode'
 import { FaMoon, FaSun } from 'react-icons/fa'
+import { LanguageContext } from '../contexts/LanguageContext'
 
 
 export default function HeaderButton() {
     const { darkMode, theme } = useContext(themeMode)
+    const { lang, handleLangChange } = useContext(LanguageContext)
 
     return (
         <>
@@ -39,7 +41,7 @@ export default function HeaderButton() {
                         </div>
                         <div >{theme} Mode</div>
                     </label>
-                    <div> Turkceye Gec</div>
+                    <button onClick={handleLangChange}> {lang === 'en' ? "Türkçe'ye Geç" : "Switch to English"}</button>
                 </div>
 
 
