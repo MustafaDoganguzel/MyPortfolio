@@ -21,11 +21,13 @@ export default function HeaderButton() {
                             onChange={darkMode}
                             data-testid="darkMode-toggle"
                         />
+
                         <div
                             className={`w-14 h-7 rounded-full flex items-center px-1 
                         transition-all duration-300 ease-in-out
                         ${theme === 'Dark' ? 'bg-[#6f60d4] justify-start' : 'bg-[#4731D3] justify-end'}`}
                         >
+
                             <div
                                 className="w-6 h-6 flex items-center justify-center 
                             transition-transform duration-300 ease-in-out"
