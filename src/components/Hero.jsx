@@ -20,7 +20,7 @@ export default function Hero({ heroData }) {
                             <h1>{heroData?.title}</h1>
                             <h1>{heroData?.title2}</h1>
                         </div>
-                        <p className='text-gray-500  '>{heroData?.description}</p>
+                        <p className='text-gray-500 w-200 '>{heroData?.description}</p>
                     </div>
                     <div className='flex gap-5 '>
                         <button className=' h-10 w-20 border rounded-lg flex  items-center justify-center  hover:bg-[#3730A3] hover:text-white hover:border'>{heroData?.social}
