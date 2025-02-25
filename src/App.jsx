@@ -4,7 +4,7 @@ import Hero from './components/Hero'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
-import Profile from './components/Profile.Jsx'
+import Profile from './components/Profile'
 
 import './App.css'
 
