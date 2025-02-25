@@ -31,7 +31,7 @@ export default function Hero({ heroData }) {
                         </button>
                     </div>
                 </div>
-                <img className='md:w-70 md:h-70 rounded-xl w-35 h-35' src="/src/images/Hero.png" alt="hero-img" />
+                <img className='md:w-70 md:h-70 rounded-xl w-35 h-35' src="/public/uploads/Hero.png" alt="hero-img" />
             </div>
             <br />
             <hr className='md:w-full w-0' />
