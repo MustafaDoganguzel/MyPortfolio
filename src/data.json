@@ -76,7 +76,7 @@
         "footer": {
             "heading1": "Let's work together on",
             "heading2": "your next product",
-            "mail": "m.doganguzell@gmail.com"
+            "personalBlog": "Personal Blog"
         }
     },
     "tr": {
@@ -154,14 +154,9 @@
             "viewSite": "Siteye Git"
         },
         "footer": {
-            "heading1": "Bir Sonraki isin icin",
-            "heading2": "calismamizi ister misin?",
-            "mail": "m.doganguzell@gmail.com",
-            "social": [
-                "Blog",
-                "GitHub",
-                "LinkedIn"
-            ]
+            "heading1": "Bir sonraki isin icin",
+            "heading2": "Çalismamizi ister misin?",
+            "personalBlog": "Blog"
         }
     }
 }
