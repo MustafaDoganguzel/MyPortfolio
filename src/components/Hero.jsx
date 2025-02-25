@@ -21,14 +21,15 @@ export default function Hero({ heroData }) {
                             <h1>{heroData?.title2}</h1>
                         </div>
                         <p className='text-gray-500 w-200 '>{heroData?.description}</p>
+
                     </div>
                     <div className='flex gap-5 '>
-                        <button className=' h-10 w-20 border rounded-lg flex  items-center justify-center  hover:bg-[#3730A3] hover:text-white hover:border'>{heroData?.social}
-                        </button>
-                        <button className=' h-10 w-20 border flex rounded-lg items-center justify-center  hover:bg-[#3730A3] hover:text-white hover:border'> <FaGithub />Github
-                        </button>
-                        <button className=' h-10 w-20 border flex rounded-lg items-center justify-center  hover:bg-[#3730A3] hover:text-white hover:border'> <FaLinkedin />Linkedin
-                        </button>
+                        <a href='/' className=' h-10 w-20 border rounded-lg flex  items-center justify-center  hover:bg-[#3730A3] hover:text-white hover:border'>{heroData?.social}
+                        </a >
+                        <a href="https://github.com/MustafaDoganguzel" className=' h-10 w-20 border flex rounded-lg items-center justify-center  hover:bg-[#3730A3] hover:text-white hover:border'> <FaGithub />Github
+                        </a >
+                        <a href='https://www.linkedin.com/in/mustafadoganguzel/' className=' h-10 w-20 border flex rounded-lg items-center justify-center  hover:bg-[#3730A3] hover:text-white hover:border'> <FaLinkedin />Linkedin
+                        </a >
                     </div>
                 </div>
                 <img className='md:w-70 md:h-70 rounded-xl w-35 h-35' src="https://myportfolio-topaz-chi-63.vercel.app/uploads/Hero.png" alt="hero-img" />
