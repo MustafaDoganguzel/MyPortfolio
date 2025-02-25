@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Projects({ projectsData }) {
     return (
-        <div className='projects '>
+        <div className="projects" id="projects-section">
 
             <div className='text-[40px]'>{projectsData?.title}</div>
             <div className='flex m-5 justify-between md:flex'>
