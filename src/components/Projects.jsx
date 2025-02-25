@@ -23,7 +23,7 @@ export default function Projects({ projectsData }) {
                 </div>
 
                 <div className='w-80'>
-                    <img className='w-80 h-35' src="https://myportfolio-topaz-chi-63.vercel.app/public/uploads/Random.png" alt="random-png" />
+                    <img className='w-80 h-35' src="https://myportfolio-topaz-chi-63.vercel.app/uploads/Random.png" alt="random-png" />
                     <div className='text-[#4338CA] text-xl '>{projectsData?.project2.title}</div>
                     <p className='h-35 text-xs text-[#6B7280]'>{projectsData?.project2.description}</p>
                     <div className='flex gap-1 pt-1 '>
