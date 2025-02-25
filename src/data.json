@@ -61,11 +61,11 @@
             "title": "Projects",
             "project1": {
                 "title": "Pizza Order",
-                "description": "The project is a clone of a website where you can order pizza, and its UI/UX has been designed accordingly."
+                "description": "This project is a web application that allows users to order pizza easily. Users can browse the menu, select their preferred size and ingredients, and customize their orders. The application provides a seamless experience with features like adding items to the cart and completing the order. It also includes theme support, allowing users to switch between light and dark modes. With LocalStorage integration, data such as order history or theme preferences can be saved. Built using React and JavaScript, the project follows a component-based architecture and utilizes fundamental state management principles."
             },
             "project2": {
                 "title": "WitFlix",
-                "description": "Witflix is a Netflix clone project."
+                "description": "WitFlix is a Netflix clone designed for users to explore movies and TV shows. With a user-friendly interface, the application provides a smooth experience by listing popular content and offering detailed information about each title. Users can browse, view details, and mark favorites. Built with modern web technologies, the project follows a component-based architecture using React for seamless functionality."
             },
             "project3": {
                 "title": "Random Jokes",
@@ -141,11 +141,11 @@
             "title": "Projeler",
             "project1": {
                 "title": "Pizza Siparis",
-                "description": "Pizza Siparisi verebilecegin bir projedir "
+                "description": "Bu proje, kullanıcıların pizza siparişi verebileceği bir web uygulamasıdır. Kullanıcılar menüdeki pizzaları görüntüleyebilir, istedikleri boyut ve malzemeleri seçerek siparişlerini özelleştirebilir. Sepete ekleme ve sipariş tamamlama işlemleriyle birlikte, kullanıcı dostu bir arayüz sunar. Tema desteği sayesinde açık ve koyu mod arasında geçiş yapabilir. Ayrıca, LocalStorage entegrasyonu ile sipariş geçmişi veya tema tercihi gibi veriler kaydedilebilir. Proje, React ve JavaScript kullanılarak geliştirilmiş olup, component bazlı mimari ve temel state yönetimi prensipleriyle tasarlanmıştır."
             },
             "project2": {
                 "title": "WitFlix",
-                "description": "Netflix Klonu"
+                "description": "WitFlix, kullanıcıların film ve dizi içeriklerini keşfedebileceği bir Netflix klonu olarak tasarlanmıştır. Kullanıcı dostu bir arayüze sahip olan bu uygulama, popüler filmleri ve dizileri listeleyerek akıcı bir deneyim sunar. Kullanıcılar içerikler hakkında detaylı bilgilere ulaşabilir ve favori yapabilir. Proje, modern web teknolojileri kullanılarak geliştirilmiş olup, React ile component bazlı mimariyi benimsemektedir."
             },
             "project3": {
                 "title": "Random Jokes",
