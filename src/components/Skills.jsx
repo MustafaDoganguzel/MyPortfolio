@@ -7,12 +7,12 @@ export default function Skills({ skillsData }) {
 
                 <div className="text-[40px]"> {skillsData?.title}</div>
 
-                <div className='flex justify-between my-5'>
+                <div className='flex justify-between gap-10 my-5'>
                     <div>
                         <div className='text-[#4338CA]'>
                             {skillsData?.javascript.name}
                         </div>
-                        <p className='text-gray-400  h-60 '>
+                        <p className='text-gray-400 h-60 '>
                             {skillsData?.javascript.info}
                         </p>
                     </div>
