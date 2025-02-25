@@ -19,17 +19,19 @@ function App() {
 
   const { langData } = useContext(LanguageContext)
   return (
+    <>
+      <div className=" md:flex md:flex-col md:gap-4 md:max-w-[1200px] md:mx-auto ">
+        <HeaderButton />
+        <Header headerData={langData.header} />
+        <Hero heroData={langData.hero} />
+        <Skills skillsData={langData.skills} />
+        <Profile profileData={langData.profile} />
+        <Projects projectsData={langData.projects} />
+      </div>
+      <Footer footerData={langData.footer} />
 
-    <div className=" flex flex-col gap-4 max-w-[1440px] mx-auto ">
 
-      <HeaderButton />
-      <Header headerData={langData.header} />
-      <Hero heroData={langData.hero} />
-      <Skills skillsData={langData.skills} />
-      <Profile profileData={langData.profile} />
-      <Projects projectsData={langData.projects} />
-      <Footer footerData={langData.footerData} />
-    </div>
+    </>
 
 
 

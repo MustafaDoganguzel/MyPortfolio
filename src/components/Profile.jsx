@@ -41,7 +41,9 @@ export default function Profile({ profileData }) {
                     <p className='text-gray-400'>{profileData?.aboutDescription} </p>
                 </div>
             </div>
+            <hr className='md:w-full w-0' />
 
+            <br />
         </>
     )
 }

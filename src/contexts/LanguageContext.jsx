@@ -4,6 +4,7 @@ import jsonData from '../data.json'
 
 export const LanguageContext = createContext();
 
+
 export default function LanguageContextProvider({ children }) {
     const langOption = localStorage.getItem('language') || "tr" // localde varsa al yoksa default tr gelsin
 
@@ -20,7 +21,6 @@ export default function LanguageContextProvider({ children }) {
 
 
     }
-
 
     useEffect(() => {
         axios.post('https://reqres.in/api/workintech', jsonData)

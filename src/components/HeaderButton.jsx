@@ -11,7 +11,7 @@ export default function HeaderButton() {
 
     return (
         <>
-            <div className='nav flex justify-end pt-5 pr-5 dark:bg-black '>
+            <div className='nav flex justify-end pt-5 pr-5 '>
                 <div className="flex justify-end items-center space-x-4">
                     <label className="relative inline-flex items-center cursor-pointer">
                         <input

@@ -9,7 +9,7 @@ export default function ThemeModeProvider({ children }) {
     const darkMode = () => {
         setTheme(prevTheme => (prevTheme === 'Dark' ? 'Light' : 'Dark'))
         localStorage.setItem('theme', theme) // 
-        console.log("deneme????")
+
     }
     useEffect(() => {
         if (theme === 'Dark') {

@@ -5,7 +5,7 @@ export default function Projects({ projectsData }) {
         <div className='projects '>
 
             <div className='text-[40px]'>{projectsData?.title}</div>
-            <div className='flex m-5 justify-between'>
+            <div className='flex m-5 justify-between md:flex'>
 
                 <div className='w-80'>
                     <img className='w-80 h-35' src="src/images/Pizza.jpg" alt="pizza-img" />
