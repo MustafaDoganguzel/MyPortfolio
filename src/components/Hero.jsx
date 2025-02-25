@@ -26,9 +26,9 @@ export default function Hero({ heroData }) {
                     <div className='flex gap-5 '>
                         <a href='/' className=' h-10 w-20 border rounded-lg flex  items-center justify-center  hover:bg-[#3730A3] hover:text-white hover:border'>{heroData?.social}
                         </a >
-                        <a href="https://github.com/MustafaDoganguzel" className=' h-10 w-20 border flex rounded-lg items-center justify-center  hover:bg-[#3730A3] hover:text-white hover:border'> <FaGithub />Github
+                        <a data-cy="github" href="https://github.com/MustafaDoganguzel" className=' h-10 w-20 border flex rounded-lg items-center justify-center  hover:bg-[#3730A3] hover:text-white hover:border'> <FaGithub />Github
                         </a >
-                        <a href='https://www.linkedin.com/in/mustafadoganguzel/' className=' h-10 w-20 border flex rounded-lg items-center justify-center  hover:bg-[#3730A3] hover:text-white hover:border'> <FaLinkedin />Linkedin
+                        <a data-cy="linkedin" href='https://www.linkedin.com/in/mustafadoganguzel/' className=' h-10 w-20 border flex rounded-lg items-center justify-center  hover:bg-[#3730A3] hover:text-white hover:border'> <FaLinkedin />Linkedin
                         </a >
                     </div>
                 </div>

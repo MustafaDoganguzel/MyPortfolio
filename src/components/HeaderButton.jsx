@@ -41,7 +41,7 @@ export default function HeaderButton() {
                         </div>
                         <div >{theme} Mode</div>
                     </label>
-                    <button onClick={handleLangChange}> {lang === 'en' ? "Türkçe'ye Geç" : "Switch to English"}</button>
+                    <button data-cy="lang-cy" onClick={handleLangChange}> {lang === 'en' ? "Türkçe'ye Geç" : "Switch to English"}</button>
                 </div>
 
 
