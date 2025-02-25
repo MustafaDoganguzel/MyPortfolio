@@ -8,7 +8,7 @@ export default function Projects({ projectsData }) {
             <div className='flex m-5 justify-between md:flex'>
 
                 <div className='w-80'>
-                    <img className='w-80 h-35' src="public/uploads/Pizza.jpg" alt="pizza-img" />
+                    <img className='w-80 h-35' src="https://myportfolio-topaz-chi-63.vercel.app/uploads/Pizza.jpg" alt="pizza-img" />
                     <div className='text-[#4338CA] text-xl '>{projectsData?.project1.title}</div>
                     <p className='h-35 text-xs text-[#6B7280]'>{projectsData?.project1.description}</p>
                     <div className='flex gap-1 pt-1'>
@@ -38,7 +38,7 @@ export default function Projects({ projectsData }) {
                 </div>
 
                 <div className='w-80'>
-                    <img className='w-80 h-35' src="public/uploads/Workintech.png" alt="workintech-png" />
+                    <img className='w-80 h-35' src="https://myportfolio-topaz-chi-63.vercel.app/uploads/Workintech.png" alt="workintech-png" />
                     <div className='text-[#4338CA] text-xl '>{projectsData?.project3.title}</div>
                     <p className='h-35 text-xs text-[#6B7280]'>{projectsData?.project3.description}</p>
                     <div className='flex gap-1 pt-1'>
