@@ -3,7 +3,7 @@ import { createContext, useEffect, useState } from "react";
 export const themeMode = createContext();
 
 export default function ThemeModeProvider({ children }) {
-    const tema = localStorage.getItem('theme') || 'light'
+    const tema = localStorage.getItem('theme') || 'Light'
     const [theme, setTheme] = useState(tema)
 
     const darkMode = () => {
